@@ -1,10 +1,19 @@
-import React from 'react'
-import Nav from '../components/nav.jsx';
+import Navbar from "../components/nav";
+import Footer from "../components/footer";
 
-const Start = () => {
+export default function Start({ children }) {
   return (
-    <Nav/>
-  )
-}
+    <div className="min-h-screen flex flex-col bg-slate-900 text-white">
+      {/* Navbar */}
+      <Navbar />
 
-export default Start
+      {/* Main Content */}
+      <main className="flex-1 w-full max-w-7xl mx-auto px-4 py-6">
+        {children}
+      </main>
+
+      {/* Footer */}
+      <Footer />
+    </div>
+  );
+}
