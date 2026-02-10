@@ -32,13 +32,13 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-semibold mb-3">Connect</h3>
           <div className="flex items-center gap-4">
-            <a href="https://github.com" target="_blank" className="hover:text-white transition">
+            <a href="https://github.com/vardhan1609/End-to-End-Encrypted-Real-Time-Chat-Application" target="_blank" className="hover:text-white transition">
               <Github />
             </a>
             <a href="https://linkedin.com" target="_blank" className="hover:text-white transition">
               <Linkedin />
             </a>
-            <a href="mailto:support@securechat.com" className="hover:text-white transition">
+            <a href="mailto:vardhan" className="hover:text-white transition">
               <Mail />
             </a>
           </div>
